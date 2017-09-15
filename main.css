@@ -40,10 +40,11 @@ header p {
 .jumbotron {
   display: flex;
   align-items: center;
+  
   background-image: url('images/portfolio.jpg');
   background-size: cover;
   color: #ffffff;
-  height: 500px;
+  height: 470px;
   text-shadow: 0.25px 0.25px 0.25px #000000;
 }
 
@@ -62,6 +63,7 @@ header p {
 section .row img {
   margin: 0 0 30px;
   width: 100%;
+  align-items: center;
 }
 
 .col-sm-6 {
