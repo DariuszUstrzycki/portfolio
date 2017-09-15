@@ -4,13 +4,271 @@
 <title>Career portfolio - Dariusz Ustrzycki</title>
   <meta charset="utf-8"/>
   <link rel="stylesheet" type="text/css" href="main.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>  
 </head>
 
 <body>
-<div class="container">
-    
+
+    <!--headeer-->
+<header class="container">
+     <!--row contains columns--> 
+    <div class="row">
+    	<h1 class="col-sm-4">Dariusz Ustrzycki</h1>
+    		<nav class="col-sm-8 text-right">
+          <!--<p> used for menu items-->
+              <p>cv</p>
+     		  <p>projects</p>
+    		  <p>contact</p>
+    		</nav>
+ 	</div> <!--end row-->
+</header>
+	
+	
+	  <!--jumbotron-->
+<section class="jumbotron">
+  <div class="container">     
+    <div class="row text-center">
+       <h2>Career portfolio</h2>
+       <h3>Web and Java projects</h3>
+      <!--Bootstrap's btn btn-primary class,  will transform the anchor into a button.-->
+      <a class="btn btn-primary" href="#" role="button">Go to Github</a>
+    </div>  
+  </div>
+</section>	
+	
+	 <!--supporting content area-->
+  
+<section class="container">
+  <div class="row">
+    <figure class="col-sm-6">
+      <p>Naughts and Crosses 1</p>
+      <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/kitchen.jpg" />
+    </figure>
+    <figure class="col-sm-6">
+      <p>Naughts and Crosses 2</p>
+      <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/woodwork.jpg" />
+    </figure> 
+  </div>
+  <div class="row">
+    <figure class="col-sm-6">
+      <p>Naughts and Crosses 3</p>
+      <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/gifts.jpg" />
+    </figure> 
+    <figure class="col-sm-6">
+      <p>Body Weight Index</p>
+      <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/antique.jpg" />
+    </figure> 
+	<figure class="col-sm-6">
+      <p>Some other project</p>
+      <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/antique.jpg" />
+    </figure> 
+	<figure class="col-sm-6">
+      <p>Yes another project</p>
+      <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/antique.jpg" />
+    </figure> 
+  </div>
+</section>
 
 
-</div> <!-- end container-class-->
+<!--below typical division of grid: container, row/s, col--->
+ <!--footer-->
+  <footer class="container">
+    <div class="row">
+      <p class="col-sm-4">&copy; 2017 Dariusz Ustrzycki</p>
+      <ul class="col-sm-8">
+        <li class="col-sm-1"><img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/twitter.svg"></li>
+        <li class="col-sm-1"><img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/facebook.svg"></li>
+        <li class="col-sm-1"><img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/instagram.svg"></li>
+        <li class="col-sm-1"><img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/medium.svg"></li>      
+      </ul>
+    </div>
+  </footer>
+
 </body>
 </html> 
+
+
+<!--
+GOOGLE FONT:
+<link href='https://fonts.googleapis.com/css?family=Lato:400,300,100,700,900' rel='stylesheet' type='text/css'>
+body {
+  font-family: 'Lato', sans-serif;
+  
+BOOTSTRAP:
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  
+
+FLEX DISPLAY IN COLUMN:
+html, body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+
+FLEX II
+.gallery {
+  margin-top: 20px;
+  /*flex can be used to easily align multiple page elements horizontally (as well as vertically)*/
+  display: flex;
+  /* can make sure no child element moves off the page */
+  flex-wrap: wrap;
+  /*justify*/
+  justify-content: center;
+}
+
+
+HEADER
+<header>
+      <h1 class="page-title">TUNDRA GALLERY</h1>
+      <p class="page-description">The Tundra Gallery is a collection of...</p>
+ </header>
+
+GALLERY OF THUMBNAILS:
+<div class="gallery">
+      <figure class="gallery-item">
+        <img class="thumbnail" src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-3/moss1.jpg">
+      </figure>      
+ </div>
+ 
+.gallery-item {
+  margin: 20px;
+}
+ PARENT          CHILD
+.gallery-item .thumbnail {
+  border: 5px solid #fff;
+}
+
+
+
+
+
+
+  
+NAV CLASS - used for menu:
+<div class="nav">   
+<h2>Ollie</h2>
+<ul>
+  <li>sign up</li>
+  <li>search bikes</li>
+  <li>reserve a bike</li>
+  <li>about us</li>  
+</ul>  
+</div> 
+
+albo
+
+<nav>
+      <ul>
+        <li><a href="#"><b>Arctic</b></a></li>
+        <li><a href="#">Alpine</a></li>
+        <li><a href="#">Antarctic</a></li>
+      </ul>
+      <div class="contact-btn"><a>Contact</a>
+      </div>
+</nav> more for this given navigation at thte bottom of this page
+
+
+CUSTOM CLASS:
+<div class="example-class">
+	<p>My example class should be colored yellow.</p>
+</div>
+.example-class{
+	color: yellow;
+}
+
+ANCHOR AND IMAGE:	
+<a href='https://www.onet.pl'>A typical link</a>
+<img src = "http://www.culpwrit.com/wp-content/uploads/2013/05/portfolio.jpg" /> 
+
+BGR IMAGE:
+body {
+  background-image: url('https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-3/background.jpg');
+  background-position: center top;
+  background-size: cover;
+  margin: 0;
+}
+
+
+
+ID - id has predecedence over class:
+<p id="footer">&copy; Dariusz Ustrzycki</p>
+
+#footer {
+  font-size: 0.75rem;
+  
+  /*The em unit is relative to the font-size of the parent. 
+The rem unit is relative to the root of the html element. */
+
+
+
+CONTACT BUTTON:
+
+.contact-btn {
+  float: right;
+}
+
+.contact-btn a {
+  cursor: pointer;
+  margin-right: 30px;
+  padding: 8px 18px;
+  border: 1px solid #204156;
+  
+  /*relative positions page elements on a webpage relative to where they would normally appear.
+  you can then use the CSS properties top, left, bottom, and right to shift an element away from where it would have normally appeared on the page. Look at the next selector with top: 2px*/
+  position: relative;
+
+}
+
+/*psuedo-class selector, which we use to style an element only while it's being clicked.*/
+.contact-btn a:active {
+	top: 2px;
+  /*This will cause the Contact button to move down slightly while being clicked, */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-----------
+MORE ON NAVIGATION
+nav {
+  background-color: #FFF;
+}
+
+nav li {
+  display: inline;
+  margin: 0;
+  padding: 0 10px;
+}
+
+nav ul {
+  display: inline;
+}
+
+
+
+nav a {
+  height: 60px;
+  line-height: 60px;
+  color: #204156;
+  text-decoration: none;
+}
+
+
+}-->
